@@ -10,6 +10,14 @@ namespace Exercise_8
     {
         static void Main(string[] args)
         {
+            String a = Console.ReadLine();
+            double b = Convert.ToDouble(a);
+            int c = Convert.ToInt32(b);
+            byte d = Convert.ToByte(b);
+            short e = Convert.ToInt16(b);
+            Console.WriteLine(c);
+            Console.WriteLine(d);
+            Console.WriteLine(e);
         }
     }
 }
